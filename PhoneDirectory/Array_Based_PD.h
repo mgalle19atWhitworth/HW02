@@ -57,6 +57,9 @@ private:
 	// McKenna Galle
 	class Directory_Entry
 	{
+	private:
+		std::string name;
+		std::string number;
 	public:
 		Directory_Entry() {} // Default no-argument constructor 
 		Directory_Entry(std::string the_name, std::string the_number) {
@@ -73,9 +76,7 @@ private:
 		void set_number(const std::string& new_number) {
 			number = new_number;
 		}
-	private:
-		string name;
-		string number;
+	
 	};
 
 	// Private Functions
