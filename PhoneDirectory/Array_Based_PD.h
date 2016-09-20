@@ -1,6 +1,7 @@
 #ifndef ARRAY_BASED_PD_H_
 #define ARRAY_BASED_PD_H_
 #include <string>
+#include <iostream>
 
 /** Specification file for the array-based phone directory.
  */
@@ -53,23 +54,28 @@ public:
 	void save();
 
 private:
+	// McKenna Galle
 	class Directory_Entry
 	{
 	public:
 		Directory_Entry() {} // Default no-argument constructor 
 		Directory_Entry(std::string the_name, std::string the_number) {
-			// constructor not implemented yet
+			name = the_name;
+			number = the_number;
 		}
 		std::string get_name() const {
-			return ""; // method not implemented yet
+
+			return name; 
 		}
 		std::string get_number() const {
-			return ""; // method not implemented yet
+			return number; 
 		}
 		void set_number(const std::string& new_number) {
-			// method not implemented yet
+			number = new_number;
 		}
 	private:
+		string name;
+		string number;
 	};
 
 	// Private Functions
