@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E16C1D09DCAA97763435B87F74A8AE8EDCCDA978",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E16C1D09DCAA97763435B87F74A8AE8EDCCDA978" : 0,
+    "1920EF31425523929F774FB920EE61D66DBDFD5C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BEF468FB-7BB5-48BE-A7C2-37EF5DDC0F9C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E16C1D09DCAA97763435B87F74A8AE8EDCCDA978" : "HW2_2\/",
+    "1920EF31425523929F774FB920EE61D66DBDFD5C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HW02_2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HW02_2\/HW02_2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mgamlem3\/CS-273.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1920EF31425523929F774FB920EE61D66DBDFD5C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mgalle19atWhitworth\/HW02",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E16C1D09DCAA97763435B87F74A8AE8EDCCDA978"
+    }
+  ]
+}

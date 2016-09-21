@@ -125,13 +125,14 @@ string Phone_Directory::remove_entry(const string& name) // Exercise 1.7: please
     if (indexOfName != -1)
     {
         //remove name and number
-        //set both to NULL
+//        the_directory[indexOfName].name = "";
+        the_directory[indexOfName].set_number("");
     }
 	// Hint: you can use the code below to shift names down in the directory to remove the selected entry specified by "index"
-//	for (int i = index; i < size - 1; i++)
-//	{
-//		the_directory[i] = the_directory[i + 1];
-//	}
+	for (int i = indexOfName; i < size - 1; i++)
+	{
+		the_directory[i] = the_directory[i + 1];
+	}
 	
 
 	return "";
