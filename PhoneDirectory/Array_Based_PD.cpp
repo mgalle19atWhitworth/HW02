@@ -124,8 +124,7 @@ string Phone_Directory::remove_entry(const string& name) // Exercise 1.7: please
     
     if (indexOfName != -1)
     {
-        //remove name and number
-//        the_directory[indexOfName].name = "";
+        //remove number
         the_directory[indexOfName].set_number("");
     }
 	// Hint: you can use the code below to shift names down in the directory to remove the selected entry specified by "index"
